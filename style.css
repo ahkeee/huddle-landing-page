@@ -112,26 +112,34 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 40px;
 }
 
 /* for the 3 subcontainer */
-
 .subcontainer1 {
-    outline: 2px solid #000;
+    margin-top: 160px;
+}
+
+.subcontainer1, .subcontainer2, .subcontainer3 {
     display: flex;
     justify-content: space-between;
     width: 85%;
     height: 500px;
-    margin-top: 160px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
 }
 
-.inner-subcontainer1 {
-    outline: 2px solid #000;
+.inner-subcontainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 120px;
     padding-bottom: 60px;
+    width: 38%;
+}
+
+.innersub {
+    margin-right: 50px;
 }
 
 .header-subcontainer {
@@ -142,5 +150,73 @@ body {
 
 .subcontainer1 img{
     width: 38%;
+    padding: 50px;
 }
-/* continue for subcontainer details in font size of para and positioning */
+.subcontainer2 img{
+    width: 38%;
+    padding: 70px;
+    margin-left: 120px;
+}
+
+.subcontainer3 img{
+    width: 38%;
+    padding: 50px;
+}
+
+.para-subcontainer {
+    font-size: 22px;
+    color: hsl(208, 11%, 55%);
+}
+
+/* registration for community container */
+.community-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    margin-top: 122px;
+    gap: 40px;
+}
+
+.community-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+}
+
+.btn-free2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    background-color: hsl(322, 100%, 66%);
+    cursor: pointer;
+    width: 500px;
+    height: 70px;
+}
+
+.btn-free2:hover {
+    background-color: hsla(322, 100%, 66%, 0.7);
+}
+
+/* styles for Footer */
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    margin-top: -100px;
+}
+
+.main-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 750px;
+}
+
