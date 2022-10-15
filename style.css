@@ -180,6 +180,9 @@ body {
     border-radius: 10px;
     margin-top: 122px;
     gap: 40px;
+    margin-bottom: -100px;
+    background-color: #fff;
+    z-index: 1;
 }
 
 .community-header {
@@ -194,12 +197,12 @@ body {
     font-weight: 600;
     font-size: 26px;
     color: #fff;
-    border-radius: 30px;
+    border-radius: 40px;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     background-color: hsl(322, 100%, 66%);
     cursor: pointer;
     width: 500px;
-    height: 70px;
+    height: 80px;
 }
 
 .btn-free2:hover {
@@ -210,13 +213,62 @@ body {
 footer {
     background-color: hsl(192, 100%, 9%);
     color: #fff;
-    margin-top: -100px;
+    
 }
 
 .main-footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 750px;
 }
 
+.main-footer-container img {
+    filter: brightness(0) invert(1);
+}
+
+.image-logo {
+    width: 300px;
+}
+
+.image {
+    /* outline: 1px solid #fff; */
+    width: 16px;
+}
+
+.social-image {
+    outline: 1px solid #fff;
+    width: 32px;
+}
+
+/* footer container 1 */
+
+.footer-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* outline: 2px solid #fff; */
+    width: 28%;
+    height: 500px;
+    font-size: 23px;
+    gap: 30px;
+}
+
+.footer-container2, .footer-container3 {
+    /* outline: 2px solid #fff; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+    height: 500px;
+    width: 10%;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.footer-container4 {
+    outline: 2px solid #fff;
+    display: flex;
+    height: 500px;
+    
+}
